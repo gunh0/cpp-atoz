@@ -44,7 +44,7 @@ int main()
 	ar.Add(30);
 
 	for (int i = 0; i < ar.Size(); i++)
-		cout << ar[i] << endl;	// ar.operator[](i) ¿Í µ¿ÀÏ
+		cout << ar[i] << endl;
 
 	return 0;
 }
