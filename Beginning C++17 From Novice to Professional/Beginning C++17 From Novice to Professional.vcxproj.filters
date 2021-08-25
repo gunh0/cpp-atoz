@@ -19,5 +19,8 @@
     <ClCompile Include="Source\01_Basic_Ideas\01_A_complete_Cpp_program.cpp">
       <Filter>Source Files\01_Bascie_Ideas</Filter>
     </ClCompile>
+    <ClCompile Include="Source\02_Introducting_Functional_Type_of_Data\01_Writing_values_of_variables_to_cout.cpp">
+      <Filter>Source Files\02_Introducting_Functional_Type_of_Data</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
