@@ -22,5 +22,8 @@
     <ClCompile Include="Source\02_Introducting_Functional_Type_of_Data\01_Writing_values_of_variables_to_cout.cpp">
       <Filter>Source Files\02_Introducting_Functional_Type_of_Data</Filter>
     </ClCompile>
+    <ClCompile Include="Source\02_Introducting_Functional_Type_of_Data\02_Converting_distances.cpp">
+      <Filter>Source Files\02_Introducting_Functional_Type_of_Data</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
