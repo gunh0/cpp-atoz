@@ -25,5 +25,8 @@
     <ClCompile Include="Source\02_Introducting_Functional_Type_of_Data\02_Converting_distances.cpp">
       <Filter>Source Files\02_Introducting_Functional_Type_of_Data</Filter>
     </ClCompile>
+    <ClCompile Include="Source\02_Introducting_Functional_Type_of_Data\03_Sizing_a_pond_for_happy_fish.cpp">
+      <Filter>Source Files\02_Introducting_Functional_Type_of_Data</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
