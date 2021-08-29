@@ -157,7 +157,10 @@
     <ClCompile Include="Source\02_Introducting_Functional_Type_of_Data\03_Sizing_a_pond_for_happy_fish.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Source\02_Introducting_Functional_Type_of_Data\04_Using_explicit_type_conversions.cpp" />
+    <ClCompile Include="Source\02_Introducting_Functional_Type_of_Data\04_Using_explicit_type_conversions.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Source\02_Introducting_Functional_Type_of_Data\05_Finding_maximum_and_minimum_values_for_data_types.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
