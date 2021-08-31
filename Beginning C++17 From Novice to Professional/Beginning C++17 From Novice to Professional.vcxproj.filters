@@ -11,6 +11,9 @@
     <Filter Include="Source Files\02_Introducting_Functional_Type_of_Data">
       <UniqueIdentifier>{f5bb5828-59e1-456f-80b8-c11b5c4a716a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\03_Working_with_Fundamental_Data_Types">
+      <UniqueIdentifier>{9c6c1342-b8de-4d4b-80eb-31bb5a88511d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\01_Basic_Ideas\02_Using_escape_sequences.cpp">
@@ -33,6 +36,9 @@
     </ClCompile>
     <ClCompile Include="Source\02_Introducting_Functional_Type_of_Data\05_Finding_maximum_and_minimum_values_for_data_types.cpp">
       <Filter>Source Files\02_Introducting_Functional_Type_of_Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\03_Working_with_Fundamental_Data_Types\01_Using_the_bitwise_operators.cpp">
+      <Filter>Source Files\03_Working_with_Fundamental_Data_Types</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
