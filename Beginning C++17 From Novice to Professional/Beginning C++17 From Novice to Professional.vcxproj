@@ -163,7 +163,10 @@
     <ClCompile Include="Source\02_Introducting_Functional_Type_of_Data\05_Finding_maximum_and_minimum_values_for_data_types.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Source\03_Working_with_Fundamental_Data_Types\01_Using_the_bitwise_operators.cpp" />
+    <ClCompile Include="Source\03_Working_with_Fundamental_Data_Types\01_Using_the_bitwise_operators.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Source\03_Working_with_Fundamental_Data_Types\02_Operations_with_enumerations.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
