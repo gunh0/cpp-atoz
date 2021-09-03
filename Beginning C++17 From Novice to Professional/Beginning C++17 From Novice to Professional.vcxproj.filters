@@ -43,5 +43,8 @@
     <ClCompile Include="Source\03_Working_with_Fundamental_Data_Types\02_Operations_with_enumerations.cpp">
       <Filter>Source Files\03_Working_with_Fundamental_Data_Types</Filter>
     </ClCompile>
+    <ClCompile Include="Source\03_Working_with_Fundamental_Data_Types\03_Demonstrating_scope-lifetime-global_variables.cpp">
+      <Filter>Source Files\03_Working_with_Fundamental_Data_Types</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
