@@ -14,6 +14,9 @@
     <Filter Include="Source Files\03_Working_with_Fundamental_Data_Types">
       <UniqueIdentifier>{9c6c1342-b8de-4d4b-80eb-31bb5a88511d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\04_Making_Decisions">
+      <UniqueIdentifier>{73263b6c-932a-4fcf-a294-854596d9c183}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\01_Basic_Ideas\02_Using_escape_sequences.cpp">
@@ -45,6 +48,9 @@
     </ClCompile>
     <ClCompile Include="Source\03_Working_with_Fundamental_Data_Types\03_Demonstrating_scope-lifetime-global_variables.cpp">
       <Filter>Source Files\03_Working_with_Fundamental_Data_Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\04_Making_Decisions\01_Comparing_data_values.cpp">
+      <Filter>Source Files\04_Making_Decisions</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
