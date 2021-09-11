@@ -58,5 +58,8 @@
     <ClCompile Include="Source\04_Making_Decisions\03_Using_a_nested_if.cpp">
       <Filter>Source Files\04_Making_Decisions</Filter>
     </ClCompile>
+    <ClCompile Include="Source\04_Making_Decisions\04_Using_the_if-else_statement.cpp">
+      <Filter>Source Files\04_Making_Decisions</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
