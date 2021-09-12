@@ -181,7 +181,10 @@
     <ClCompile Include="Source\04_Making_Decisions\03_Using_a_nested_if.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Source\04_Making_Decisions\04_Using_the_if-else_statement.cpp" />
+    <ClCompile Include="Source\04_Making_Decisions\04_Using_the_if-else_statement.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Source\04_Making_Decisions\05_Combining_logical_operatiors_for_loan_approval.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
