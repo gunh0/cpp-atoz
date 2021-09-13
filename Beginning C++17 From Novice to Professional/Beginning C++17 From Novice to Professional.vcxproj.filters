@@ -64,5 +64,8 @@
     <ClCompile Include="Source\04_Making_Decisions\05_Combining_logical_operatiors_for_loan_approval.cpp">
       <Filter>Source Files\04_Making_Decisions</Filter>
     </ClCompile>
+    <ClCompile Include="Source\04_Making_Decisions\06_Using_the_conditional_operator_to_select_output.cpp">
+      <Filter>Source Files\04_Making_Decisions</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
