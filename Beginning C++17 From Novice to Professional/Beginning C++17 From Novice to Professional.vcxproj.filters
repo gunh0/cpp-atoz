@@ -70,5 +70,8 @@
     <ClCompile Include="Source\04_Making_Decisions\07_Using_the_switch_statement.cpp">
       <Filter>Source Files\04_Making_Decisions</Filter>
     </ClCompile>
+    <ClCompile Include="Source\04_Making_Decisions\08_Multiple_case_actions.cpp">
+      <Filter>Source Files\04_Making_Decisions</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

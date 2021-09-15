@@ -190,7 +190,10 @@
     <ClCompile Include="Source\04_Making_Decisions\06_Using_the_conditional_operator_to_select_output.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Source\04_Making_Decisions\07_Using_the_switch_statement.cpp" />
+    <ClCompile Include="Source\04_Making_Decisions\07_Using_the_switch_statement.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Source\04_Making_Decisions\08_Multiple_case_actions.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
