@@ -193,7 +193,12 @@
     <ClCompile Include="Source\04_Making_Decisions\07_Using_the_switch_statement.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Source\04_Making_Decisions\08_Multiple_case_actions.cpp" />
+    <ClCompile Include="Source\04_Making_Decisions\08_Multiple_case_actions.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Source\05_Arrays_and_Loops\01_Using_a_for_loop_with_an_array.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

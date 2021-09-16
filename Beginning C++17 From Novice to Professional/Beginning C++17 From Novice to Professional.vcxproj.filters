@@ -17,6 +17,9 @@
     <Filter Include="Source Files\04_Making_Decisions">
       <UniqueIdentifier>{73263b6c-932a-4fcf-a294-854596d9c183}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\05_Arrays_and_Loops">
+      <UniqueIdentifier>{53e4100b-55df-4abb-9444-49f94e322c77}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\01_Basic_Ideas\02_Using_escape_sequences.cpp">
@@ -72,6 +75,9 @@
     </ClCompile>
     <ClCompile Include="Source\04_Making_Decisions\08_Multiple_case_actions.cpp">
       <Filter>Source Files\04_Making_Decisions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\05_Arrays_and_Loops\01_Using_a_for_loop_with_an_array.cpp">
+      <Filter>Source Files\05_Arrays_and_Loops</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
