@@ -79,5 +79,8 @@
     <ClCompile Include="Source\05_Arrays_and_Loops\01_Using_a_for_loop_with_an_array.cpp">
       <Filter>Source Files\05_Arrays_and_Loops</Filter>
     </ClCompile>
+    <ClCompile Include="Source\05_Arrays_and_Loops\02_Obtaining_the_number_of_array_elements.cpp">
+      <Filter>Source Files\05_Arrays_and_Loops</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
