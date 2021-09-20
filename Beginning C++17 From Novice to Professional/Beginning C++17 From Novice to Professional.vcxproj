@@ -205,7 +205,12 @@
     <ClCompile Include="Source\05_Arrays_and_Loops\03_Floating-point_control_in_a_for_loop.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Source\05_Arrays_and_Loops\04_Multiple_initializations_in_a_loop_expression.cpp" />
+    <ClCompile Include="Source\05_Arrays_and_Loops\04_Multiple_initializations_in_a_loop_expression.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Source\05_Arrays_and_Loops\05_Using_a_while_loop.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

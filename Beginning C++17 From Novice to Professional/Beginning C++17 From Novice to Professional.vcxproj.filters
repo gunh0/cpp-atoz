@@ -88,5 +88,8 @@
     <ClCompile Include="Source\05_Arrays_and_Loops\04_Multiple_initializations_in_a_loop_expression.cpp">
       <Filter>Source Files\05_Arrays_and_Loops</Filter>
     </ClCompile>
+    <ClCompile Include="Source\05_Arrays_and_Loops\05_Using_a_while_loop.cpp">
+      <Filter>Source Files\05_Arrays_and_Loops</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
