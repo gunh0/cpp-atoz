@@ -1,4 +1,3 @@
-// Ex5_06.cpp
 // Using a do-while loop to manage input
 
 #include <iostream>

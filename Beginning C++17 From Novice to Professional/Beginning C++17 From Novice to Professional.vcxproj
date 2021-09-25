@@ -211,7 +211,12 @@
     <ClCompile Include="Source\05_Arrays_and_Loops\05_Using_a_while_loop.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Source\05_Arrays_and_Loops\06_Using_a_do-while_loop_to_manage_input.cpp" />
+    <ClCompile Include="Source\05_Arrays_and_Loops\06_Using_a_do-while_loop_to_manage_input.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Source\05_Arrays_and_Loops\07_Generating_multiplication_tables_using_nested_loops.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
