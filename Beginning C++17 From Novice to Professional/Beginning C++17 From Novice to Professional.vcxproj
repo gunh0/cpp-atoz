@@ -217,6 +217,7 @@
     <ClCompile Include="Source\05_Arrays_and_Loops\07_Generating_multiplication_tables_using_nested_loops.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Source\05_Arrays_and_Loops\08_Using_the_continue_statement_to_display_ASCII_character_codes.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
