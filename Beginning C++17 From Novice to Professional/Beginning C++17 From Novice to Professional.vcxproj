@@ -223,7 +223,10 @@
     <ClCompile Include="Source\05_Arrays_and_Loops\09_Sorting_an_array_in_ascending_sequence.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Source\05_Arrays_and_Loops\10_Classifying_the_letters_in_a_C-style_string.cpp" />
+    <ClCompile Include="Source\05_Arrays_and_Loops\10_Classifying_the_letters_in_a_C-style_string.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Source\05_Arrays_and_Loops\11_Working_with_strings_in_an_array.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

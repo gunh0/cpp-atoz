@@ -6,7 +6,9 @@ int main()
 {
 	const int max_length{ 100 }; // Array size
 	char text[max_length]{};   // Array to hold input string
+    
 	std::cout << "Enter a line of text:" << std::endl;
+
 	// Read a line of characters including spaces
 	std::cin.getline(text, max_length);
 	std::cout << "You entered:\n"
