@@ -112,5 +112,13 @@
     <ClCompile Include="Source\05_Arrays_and_Loops\12_Allocating_an_array_at_runtime.cpp">
       <Filter>Source Files\05_Arrays_and_Loops</Filter>
     </ClCompile>
+    <ClCompile Include="Source\05_Arrays_and_Loops\14_Using_array_to_create_Body_Mass_Index_(BMI)_table.cpp">
+      <Filter>Source Files\05_Arrays_and_Loops</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\05_Arrays_and_Loops\13_Operations_on_array_containers.md">
+      <Filter>Source Files\05_Arrays_and_Loops</Filter>
+    </None>
   </ItemGroup>
 </Project>

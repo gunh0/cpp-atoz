@@ -229,7 +229,15 @@
     <ClCompile Include="Source\05_Arrays_and_Loops\11_Working_with_strings_in_an_array.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Source\05_Arrays_and_Loops\12_Allocating_an_array_at_runtime.cpp" />
+    <ClCompile Include="Source\05_Arrays_and_Loops\12_Allocating_an_array_at_runtime.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Source\05_Arrays_and_Loops\14_Using_array_to_create_Body_Mass_Index_(BMI)_table.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\05_Arrays_and_Loops\13_Operations_on_array_containers.md">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </None>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
