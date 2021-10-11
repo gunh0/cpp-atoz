@@ -232,7 +232,12 @@
     <ClCompile Include="Source\05_Arrays_and_Loops\12_Allocating_an_array_at_runtime.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Source\05_Arrays_and_Loops\14_Using_array_to_create_Body_Mass_Index_(BMI)_table.cpp" />
+    <ClCompile Include="Source\05_Arrays_and_Loops\14_Using_array_to_create_Body_Mass_Index_(BMI)_table.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Source\05_Arrays_and_Loops\15_Sorting_an_array_in_ascending_sequence.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Source\05_Arrays_and_Loops\13_Operations_on_array_containers.md">
