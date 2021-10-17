@@ -32,6 +32,11 @@
 ### 2. Introducting Functional Type of Data
 
 ```
+1. Writing values of various to cout
+2. Converting distances
+3. Sizing a pond for happy fish
+4. Using explicit type conversoins
+5. Finding maximum and minimum values for data types
 ```
 
 ### 3. Working with Fundamental Data Types
@@ -52,3 +57,5 @@
 ### 6. Pointers and References
 
 ```
+1. The size of pointers
+2. Dereferencing pointers
