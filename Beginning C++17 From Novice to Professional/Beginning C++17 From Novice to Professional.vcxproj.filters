@@ -20,6 +20,9 @@
     <Filter Include="Source Files\05_Arrays_and_Loops">
       <UniqueIdentifier>{53e4100b-55df-4abb-9444-49f94e322c77}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\06_Pointers_and_References">
+      <UniqueIdentifier>{78f21150-3500-4352-b36a-db251c9f846b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\01_Basic_Ideas\02_Using_escape_sequences.cpp">
@@ -117,6 +120,9 @@
     </ClCompile>
     <ClCompile Include="Source\05_Arrays_and_Loops\15_Sorting_an_array_in_ascending_sequence.cpp">
       <Filter>Source Files\05_Arrays_and_Loops</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\06_Pointers_and_References\01_The_size_of_pointers.cpp">
+      <Filter>Source Files\06_Pointers_and_References</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

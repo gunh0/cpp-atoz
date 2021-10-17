@@ -238,6 +238,7 @@
     <ClCompile Include="Source\05_Arrays_and_Loops\15_Sorting_an_array_in_ascending_sequence.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Source\06_Pointers_and_References\01_The_size_of_pointers.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Source\05_Arrays_and_Loops\13_Operations_on_array_containers.md">
