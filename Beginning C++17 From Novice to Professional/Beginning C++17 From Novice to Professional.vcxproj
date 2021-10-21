@@ -241,7 +241,10 @@
     <ClCompile Include="Source\06_Pointers_and_References\01_The_size_of_pointers.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Source\06_Pointers_and_References\02_Dereferencing_pointers.cpp" />
+    <ClCompile Include="Source\06_Pointers_and_References\02_Dereferencing_pointers.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Source\06_Pointers_and_References\03_Initializing_pointers_with_strings.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Source\05_Arrays_and_Loops\13_Operations_on_array_containers.md">
