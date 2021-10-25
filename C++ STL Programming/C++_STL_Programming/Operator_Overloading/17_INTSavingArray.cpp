@@ -13,7 +13,7 @@ public:
 	{
 		arr = new int[capacity];
 	}
-	
+
 	~Array()
 	{
 		delete[] arr;
@@ -48,4 +48,3 @@ int main()
 
 	return 0;
 }
-

@@ -6,21 +6,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Operator_Overloading\1_intPlus.cpp">
-      <Filter>OperatorOverloading</Filter>
-    </ClCompile>
-    <ClCompile Include="Operator_Overloading\4_PlusOperatorDefine.cpp">
-      <Filter>OperatorOverloading</Filter>
-    </ClCompile>
-    <ClCompile Include="Operator_Overloading\6_PlusOperatorFuncion.cpp">
-      <Filter>OperatorOverloading</Filter>
-    </ClCompile>
-    <ClCompile Include="Operator_Overloading\8_PlusPlusOperation.cpp">
-      <Filter>OperatorOverloading</Filter>
-    </ClCompile>
-    <ClCompile Include="Operator_Overloading\9_%27--%27OperationOverloading.cpp">
-      <Filter>OperatorOverloading</Filter>
-    </ClCompile>
     <ClCompile Include="Operator_Overloading\10_%27==%27OperationOverloading.cpp">
       <Filter>OperatorOverloading</Filter>
     </ClCompile>
@@ -43,6 +28,21 @@
       <Filter>OperatorOverloading</Filter>
     </ClCompile>
     <ClCompile Include="Operator_Overloading\17_INTSavingArray.cpp">
+      <Filter>OperatorOverloading</Filter>
+    </ClCompile>
+    <ClCompile Include="Operator_Overloading\01_intPlus.cpp">
+      <Filter>OperatorOverloading</Filter>
+    </ClCompile>
+    <ClCompile Include="Operator_Overloading\04_PlusOperatorDefine.cpp">
+      <Filter>OperatorOverloading</Filter>
+    </ClCompile>
+    <ClCompile Include="Operator_Overloading\06_PlusOperatorFuncion.cpp">
+      <Filter>OperatorOverloading</Filter>
+    </ClCompile>
+    <ClCompile Include="Operator_Overloading\08_PlusPlusOperation.cpp">
+      <Filter>OperatorOverloading</Filter>
+    </ClCompile>
+    <ClCompile Include="Operator_Overloading\09_%27--%27OperationOverloading.cpp">
       <Filter>OperatorOverloading</Filter>
     </ClCompile>
   </ItemGroup>
