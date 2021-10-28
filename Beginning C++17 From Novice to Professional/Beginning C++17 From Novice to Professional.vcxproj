@@ -256,6 +256,7 @@
     <ClCompile Include="Source\06_Pointers_and_References\06_Calculating_primes_using_dynamic_memory_allocation.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Source\06_Pointers_and_References\07_Using_smart_pointers.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Source\05_Arrays_and_Loops\13_Operations_on_array_containers.md">
