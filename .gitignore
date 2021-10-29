@@ -1,1 +1,8 @@
+.DS_Store
+
 .vscode/
+
+### CLion ###
+.idea/
+# CMake
+cmake-build-*/
