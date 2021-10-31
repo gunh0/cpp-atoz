@@ -1,10 +1,22 @@
-# C++ A to Z 🇰🇷
+# C++ A to Z
+
+<br/>
+
+### Hangul Automata
+
+**\*오토마타에 대한 이해를 위한 예시 코드**
+
+> \*오토마타: 계산 능력이 있는 추상 기계와, 그 기계를 이용해서 풀 수 있는 문제들에 대해 학문적으로 접근한 컴퓨터과학 분야
 
 <br/>
 
 <br/>
 
-## C++ STL Programming
+### C++ STL Programming
+
+<br/>
+
+<br/>
 
 ### Operator Overloading
 
@@ -29,10 +41,6 @@
 <br/>
 
 ## C++ SocketTest
-
-### Activity Diagram for Socket Programming
-
-![image](https://user-images.githubusercontent.com/41619898/67725601-454ebc80-fa26-11e9-968d-5e70bca08a5c.png)
 
 <br/>
 
@@ -60,16 +68,19 @@
 ### 3. Working with Fundamental Data Types
 
 ```
+
 ```
 
 ### 4. Making Decisions
 
 ```
+
 ```
 
 ### 5. Arrays and Loops
 
 ```
+
 ```
 
 ### 6. Pointers and References
@@ -77,3 +88,4 @@
 ```
 1. The size of pointers
 2. Dereferencing pointers
+```
