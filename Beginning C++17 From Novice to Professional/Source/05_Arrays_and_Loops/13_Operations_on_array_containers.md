@@ -12,4 +12,3 @@ if (those != them) std::cout << "those and them are not equal." << std::endl;
 if (those > them) std::cout << "those are greater than them." << std::endl;
 if (them < those) std::cout << "them are less than those." << std::endl
 ```
-

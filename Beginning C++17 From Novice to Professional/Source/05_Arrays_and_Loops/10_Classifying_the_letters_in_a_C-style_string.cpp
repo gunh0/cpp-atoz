@@ -4,16 +4,16 @@
 #include <cctype>
 int main()
 {
-	const int max_length{ 100 }; // Array size
+	const int max_length{100}; // Array size
 	char text[max_length]{};   // Array to hold input string
-    
+
 	std::cout << "Enter a line of text:" << std::endl;
 
 	// Read a line of characters including spaces
 	std::cin.getline(text, max_length);
 	std::cout << "You entered:\n"
-		<< text << std::endl;
-	size_t vowels{};     // Count of vowels
+			  << text << std::endl;
+	size_t vowels{};	 // Count of vowels
 	size_t consonants{}; // Count of consonants
 	for (int i{}; text[i] != '\0'; i++)
 	{
@@ -34,5 +34,5 @@ int main()
 		}
 	}
 	std::cout << "Your input contained " << vowels << " vowels and "
-		<< consonants << " consonants." << std::endl;
+			  << consonants << " consonants." << std::endl;
 }

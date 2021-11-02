@@ -14,7 +14,6 @@ struct ST_WSA_INITIALIZE
 	}
 };
 static ST_WSA_INITIALIZE g_InitWSA;
-  
 
 int main()
 {
@@ -23,11 +22,13 @@ int main()
 	if (INVALID_SOCKET == sockListen)
 		return -1;
 
-	sockaddr_in addr = { 0, };
-	addr.sin_family			= AF_INET;
-	addr.sin_addr.s_addr	= INADDR_ANY;
-	addr.sin_port			= htons(1004);
-	nRet = ::bind(sockListen, (sockaddr*)&addr, sizeof(addr));
+	sockaddr_in addr = {
+		0,
+	};
+	addr.sin_family = AF_INET;
+	addr.sin_addr.s_addr = INADDR_ANY;
+	addr.sin_port = htons(1004);
+	nRet = ::bind(sockListen, (sockaddr *)&addr, sizeof(addr));
 	if (SOCKET_ERROR == nRet)
 		return -1;
 
@@ -43,7 +44,9 @@ int main()
 		std::string strSend = "Hello?\n";
 		int nSent = ::send(sockConnection, strSend.c_str(), strSend.length(), 0);
 
-		char szBuff[256] = { 0, };
+		char szBuff[256] = {
+			0,
+		};
 		int nRead = ::recv(sockConnection, szBuff, 256, 0);
 
 		printf("RECVED: %s", szBuff);
@@ -51,6 +54,5 @@ int main()
 		::closesocket(sockConnection);
 		printf("disconnected.\n");
 	}
-    return 0;
+	return 0;
 }
-

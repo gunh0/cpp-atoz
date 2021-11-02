@@ -5,9 +5,9 @@
 
 int main()
 {
-	const size_t size{ 1000 }; // Array size
-	double x[size]{};        // Stores data to be sorted
-	size_t count{};          // Number of values in array
+	const size_t size{1000}; // Array size
+	double x[size]{};		 // Stores data to be sorted
+	size_t count{};			 // Number of values in array
 
 	while (true)
 	{
@@ -33,7 +33,7 @@ int main()
 
 	while (true)
 	{
-		bool swapped{ false }; // becomes true when not all values are in order
+		bool swapped{false}; // becomes true when not all values are in order
 		for (size_t i{}; i < count - 1; ++i)
 		{
 			if (x[i] > x[i + 1]) // Out of order so swap them
@@ -46,20 +46,20 @@ int main()
 		}
 
 		if (!swapped) // If there were no swaps
-			break;    // ...all values are in order...
-	}                 // ...otherwise, go round again.
+			break;	  // ...all values are in order...
+	}				  // ...otherwise, go round again.
 
 	std::cout << "Your data in ascending sequence:\n"
-		<< std::fixed << std::setprecision(1);
-	const size_t perline{ 10 }; // Number output per line
-	size_t n{};               // Number on current line
+			  << std::fixed << std::setprecision(1);
+	const size_t perline{10}; // Number output per line
+	size_t n{};				  // Number on current line
 	for (size_t i{}; i < count; ++i)
 	{
 		std::cout << std::setw(8) << x[i];
 		if (++n == perline) // When perline have been written...
 		{
 			std::cout << std::endl; // Start a new line and...
-			n = 0;                  // ...reset count on this line
+			n = 0;					// ...reset count on this line
 		}
 	}
 	std::cout << std::endl;

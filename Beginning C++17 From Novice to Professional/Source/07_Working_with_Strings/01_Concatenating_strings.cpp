@@ -1,3 +1,5 @@
+// Title: Concatenating strings
+
 #include <iostream>
 #include <string>
 

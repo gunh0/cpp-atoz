@@ -1,12 +1,14 @@
 /*
  * Date: 2020.10.02
  *
- * 자음(J), 모음(M)의 다음 형식으로 구성된 한글 Automata를 만든다.
- * 한글 text = (JM+JMJ+JMM+JMMJ+JMJJ+O)  // O는 기타 char.
+ * Creates a Korean Automata composed of Consonants (J), Vowels (M) in the following format.
+ * Korean text = (JM+JMJ+JMM+JMMJ+JMJJ+O)  // O represents other characters.
  *           eg.) 가+각+과+곽+값+!
  * J = {g,n,d,r,m,b,s,w,j,z,k,t,p,h,q,f ...}
  * M = {a,e,i,o,u,y ...}
  * O = {" ", 1,2,3,4,5,6,7,8,9,0,+,-,*,/,[,],....}
+ *
+ * set(CMAKE_CXX_STANDARD 14)
  *
  * g++ -o output hangulAutomata.cpp
  */
@@ -17,19 +19,18 @@
 
 using namespace std;
 
-/////////////////////////// 문장을 입력해주세요. /////////////////////////////
+/////////////////////////// Please enter sentences. /////////////////////////////
 string input_all[] = {"hangug woigukweo", "parkgunho",
                       "hangukwoigukweodaehakgyo keompyuteogowhakbu",
                       "keompawilreoneun jaemiwitneun goamokwida.",
                       "wyulsimhi gowbuhaewyagetda."};
-////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
 
 vector<char> J = {'g', 'n', 'd', 'r', 'm', 'b', 's', 'w', 'j', 'z', 'k', 't', 'p', 'h', 'l', 'q', 'f', 'c', 'v'};
 vector<char> M = {'a', 'e', 'i', 'o', 'u', 'y'};
 vector<char> O = {' ', 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, '+', '-', '*', '/', '[', ']', '.', ',', '!', '?'};
 
-char JMO_Converter(char ch)
-{
+char JMO_Converter(char ch) {
     for (int j = 0; j < J.size(); j++)
         if (ch == J[j])
             return 'J';
@@ -41,11 +42,9 @@ char JMO_Converter(char ch)
     return 'O';
 }
 
-int main()
-{
+int main() {
 
-    for (int i = 0; i < sizeof(input_all) / sizeof(input_all[0]); i++)
-    {
+    for (int i = 0; i < sizeof(input_all) / sizeof(input_all[0]); i++) {
         cout << input_all[i] << endl;
         string input_str = input_all[i];
         // cout << input_str.length() << endl;
@@ -54,14 +53,11 @@ int main()
         string state = "0"; // Inital state
         string output = "";
 
-        for (int j = 0; j < input_str.length(); j++)
-        {
+        for (int j = 0; j < input_str.length(); j++) {
             char ch = input_str[j];
             char conv_ch = JMO_Converter(ch);
-            if (state.compare("0") == 0)
-            {
-                switch (conv_ch)
-                {
+            if (state.compare("0") == 0) {
+                switch (conv_ch) {
                     case 'O':
                         output = output + ch + "|";
                         state = "0";
@@ -75,11 +71,8 @@ int main()
                         temp = "";
                         break;
                 }
-            }
-            else if (state.compare("0J") == 0)
-            {
-                switch (conv_ch)
-                {
+            } else if (state.compare("0J") == 0) {
+                switch (conv_ch) {
                     case 'O': // error
                         state = "0";
                         temp = "";
@@ -93,11 +86,8 @@ int main()
                         temp += ch;
                         break;
                 }
-            }
-            else if (state.compare("0JM") == 0)
-            {
-                switch (conv_ch)
-                {
+            } else if (state.compare("0JM") == 0) {
+                switch (conv_ch) {
                     case 'O':
                         output = output + temp + "|" + ch + "|";
                         state = "0";
@@ -112,11 +102,8 @@ int main()
                         temp += ch;
                         break;
                 }
-            }
-            else if (state.compare("0JMM") == 0)
-            {
-                switch (conv_ch)
-                {
+            } else if (state.compare("0JMM") == 0) {
+                switch (conv_ch) {
                     case 'O':
                         output = output + temp + "|" + ch + "|";
                         state = "0";
@@ -132,11 +119,8 @@ int main()
                         temp = "";
                         break;
                 }
-            }
-            else if (state.compare("0JMJ") == 0)
-            {
-                switch (conv_ch)
-                {
+            } else if (state.compare("0JMJ") == 0) {
+                switch (conv_ch) {
                     case 'O':
                         output = output + temp + "|" + ch + "|";
                         state = "0";
@@ -153,11 +137,8 @@ int main()
                         temp += ch;
                         break;
                 }
-            }
-            else if ((state.compare("0JMMJ") == 0) || (state.compare("0JMJJ") == 0))
-            {
-                switch (conv_ch)
-                {
+            } else if ((state.compare("0JMMJ") == 0) || (state.compare("0JMJJ") == 0)) {
+                switch (conv_ch) {
                     case 'O':
                         output = output + temp + "|" + ch + "|";
                         state = "0";

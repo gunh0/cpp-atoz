@@ -5,12 +5,12 @@ int main()
 {
 	int choice{}; // Stores selection value
 	std::cout << "Your electronic recipe book is at your service.\n"
-		<< "You can choose from the following delicious dishes:\n"
-		<< "1 Boiled eggs\n"
-		<< "2 Fried eggs\n"
-		<< "3 Scrambled eggs\n"
-		<< "4 Coddled eggs\n\n"
-		<< "Enter your selection number: ";
+			  << "You can choose from the following delicious dishes:\n"
+			  << "1 Boiled eggs\n"
+			  << "2 Fried eggs\n"
+			  << "3 Scrambled eggs\n"
+			  << "4 Coddled eggs\n\n"
+			  << "Enter your selection number: ";
 	std::cin >> choice;
 	switch (choice)
 	{

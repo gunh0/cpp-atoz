@@ -8,8 +8,8 @@ int main()
 	size_t count{};
 	std::cout << "How many heights will you enter? ";
 	std::cin >> count;
-	//int height[count]; // Create the array of count elements
-	int* height;
+	// int height[count]; // Create the array of count elements
+	int *height;
 	height = new int[count];
 
 	// Read the heights
