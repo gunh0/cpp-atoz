@@ -6,23 +6,24 @@ class Point
 {
 	int x;
 	int y;
-public:
-	Point(int _x = 0, int _y = 0) :x(_x), y(_y) {}
-	void Print()const { cout << x << ',' << y << endl; }
 
-	const Point& operator--()	// 전위 --
+public:
+	Point(int _x = 0, int _y = 0) : x(_x), y(_y) {}
+	void Print() const { cout << x << ',' << y << endl; }
+
+	const Point &operator--() // Prefix decrement
 	{
-		--x;
-		--y;
-		return *this;
+		--x;		  // Decrement x
+		--y;		  // Decrement y
+		return *this; // Return the decremented object
 	}
 
-	const Point operator--(int)	// 후위 --
+	const Point operator--(int) // Postfix decrement
 	{
-		Point pt(x, y);
-		--x;	// 내부 구현이므로 멤버변수는 전위 -- 연산을 사용해도 무방
-		--y;
-		return pt;
+		Point pt(x, y); // Create a temporary object with current x and y
+		--x;			// Decrement x. Postfix requires decrement after value is used.
+		--y;			// Decrement y.
+		return pt;		// Return the original value before decrement
 	}
 };
 
@@ -31,11 +32,11 @@ int main()
 	Point p1(2, 3), p2(2, 3);
 	Point result;
 
-	result = --p1;	// p1.operator--(); 와 동일
+	result = --p1; // Calls prefix decrement on p1
 	p1.Print();
 	result.Print();
 
-	result = p2--;	// p2.operator--(0); 와 동일
+	result = p2--; // Calls postfix decrement on p2
 	p2.Print();
 	result.Print();
 

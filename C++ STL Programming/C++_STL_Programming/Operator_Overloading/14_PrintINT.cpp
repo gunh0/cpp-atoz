@@ -6,23 +6,23 @@ struct FuncObject
 public:
 	void operator()(int arg) const
 	{
-		cout << "정수 : " << arg << endl;
+		cout << "Integer: " << arg << endl; // Prints the integer value
 	}
 };
 
 void Print1(int arg)
 {
-	cout << "정수 : " << arg << endl;
+	cout << "Integer: " << arg << endl; // Prints the integer value
 }
 
-int main()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+int main()
 {
-	void (*Print2)(int) = Print1;
-	FuncObject Print3;
+	void (*Print2)(int) = Print1; // Pointer to function
+	FuncObject Print3;			  // Function object
 
-	Print1(10);	// 첫째, '함수'를 사용한 정수 출력
-	Print2(10);	// 둘째, '함수 포인터'를 사용한 정수 출력
-	Print3(10);	// 셋째, '함수 객체'를 사용한 정수 출력 (Print3.operator(10)과 같음)
+	Print1(10); // First, directly calling the function
+	Print2(10); // Second, calling the function via function pointer
+	Print3(10); // Third, calling the function via function object (invoking Print3.operator()(10))
 
 	return 0;
 }

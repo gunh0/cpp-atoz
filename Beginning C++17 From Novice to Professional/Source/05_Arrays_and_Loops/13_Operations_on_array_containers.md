@@ -1,6 +1,6 @@
 ## Operations on array<>s As a Whole
 
-You can compare entire array<> containers using any of the comparison operators as long as the containers are of the same size and they store elements of the same type. Here’s an example:
+You can compare entire array<> containers using any of the comparison operators as long as the containers are of the same size and they store elements of the same type. Here's an example:
 
 ```c++
 std::array<double,4> these {1.0, 2.0, 3.0, 4.0};

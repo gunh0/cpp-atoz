@@ -8,10 +8,10 @@
 
 ### B. Characteristics of Finite Automata
 
-| Single State | – A model that has only one state at a time                 |
-| ------------ | ----------------------------------------------------------- |
-| Transition   | – The property of changing to another state due to an event |
-| State        | – A behavioral node waiting to initiate a transition        |
+| Single State | A model that has only one state at a time                 |
+| ------------ | --------------------------------------------------------- |
+| Transition   | The property of changing to another state due to an event |
+| State        | A behavioral node waiting to initiate a transition        |
 
 <br/>
 
@@ -22,7 +22,7 @@
 -   A finite automaton where each state has precisely one transitioned state for each possible input.
 
     -   Transition to B on input a
-    -   a → B, b → C state transitions
+    -   a -> B, b -> C state transitions
     -   State determined by input
 
     -   NFAs are often converted to DFAs for efficient utilization of computers.
@@ -43,12 +43,12 @@
 
 ## III. Applications of Finite Automata
 
-| Category |    Application Area     |                                          Description                                          |
-| :------: | :---------------------: | :-------------------------------------------------------------------------------------------: |
-| H/W Use  |    Digital Circuits     |           – Designable logic elements, PLC, logic circuits, FFs, electronic relays            |
-| S/W Use  |  Application Designing  |             – Event response programming<br>– Event and program state management              |
-| S/W Use  |     Text Filtering      |        – Determining text appropriateness<br>Example: validating "string"+"@"+"domain"        |
-| S/W Use  | Compiler Design (Lexer) | – Translating specific languages into others<br>– Segmenting input code into meaningful units |
-| S/W Use  |  Parity Bit Generation  |       – Adding parity for error checking<br>– Generating even/odd parity with automata        |
+| Category |    Application Area     |                                        Description                                         |
+| :------: | :---------------------: | :----------------------------------------------------------------------------------------: |
+| H/W Use  |    Digital Circuits     |           Designable logic elements, PLC, logic circuits, FFs, electronic relays           |
+| S/W Use  |  Application Designing  |             Event response programming<br/>Event and program state management              |
+| S/W Use  |     Text Filtering      |       Determining text appropriateness<br/>Example: validating "string"+"@"+"domain"       |
+| S/W Use  | Compiler Design (Lexer) | Translating specific languages into others<br/>Segmenting input code into meaningful units |
+| S/W Use  |  Parity Bit Generation  |       Adding parity for error checking<br/>Generating even/odd parity with automata        |
 
 -   Finite automata are useful in situations where operations are triggered by a variety of event types.
