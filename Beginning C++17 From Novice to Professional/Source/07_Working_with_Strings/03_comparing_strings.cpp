@@ -1,4 +1,4 @@
-// Title: Comparing strings
+// Comparing strings
 
 #include <iostream>
 #include <iomanip>

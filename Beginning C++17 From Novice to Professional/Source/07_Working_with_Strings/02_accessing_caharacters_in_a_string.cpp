@@ -1,4 +1,4 @@
-// Title: Accessing characters in a string
+// Accessing characters in a string
 
 #include <iostream>
 #include <string>

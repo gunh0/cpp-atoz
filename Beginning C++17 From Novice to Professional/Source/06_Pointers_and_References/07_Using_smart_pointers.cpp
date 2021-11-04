@@ -1,4 +1,4 @@
-// Title: Using smart pointers
+// Using smart pointers
 
 #include <iostream>
 #include <iomanip>

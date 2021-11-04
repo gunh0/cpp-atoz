@@ -1,4 +1,4 @@
-// Title: Concatenating strings
+// Concatenating strings
 
 #include <iostream>
 #include <string>

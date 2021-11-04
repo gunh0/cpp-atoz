@@ -2,7 +2,7 @@
 
 ### Hangul Automata
 
-**\*Example code for understanding automata**
+**Example code for understanding \*automata**
 
 > \*Automata: A field of computer science that academically approaches abstract machines capable of computation and the problems that can be solved using these machines.
 
@@ -26,27 +26,27 @@ This example serves as a basic introduction to the principles of automata theory
 
 **Operator Overloading**
 
-```
-01_intPlus.cpp
-04_PlusOperatorDefine.cpp
-06_PlusOperatorFuncion.cpp
-08_PlusPlusOperation.cpp
-09_'--'OperationOverloading.cpp
-10_'=='OperationOverloading.cpp
-11_'!='OperationOverloading.cpp
-12_MemberFunctionOP'-'Overloading.cpp
-13_GlobalFunctionOP'-'Overloading.cpp
-14_PrintINT.cpp
-15_FuncOverloading.cpp
-16_ArrayIndexOperOverloading.cpp
-17_INTSavingArray.cpp
-```
+-   `01_intPlus.cpp`
+-   `04_PlusOperatorDefine.cpp`
+-   `06_PlusOperatorFuncion.cpp`
+-   `08_PlusPlusOperation.cpp`
+-   `09_'--'OperationOverloading.cpp`
+-   `10_'=='OperationOverloading.cpp`
+-   `11_'!='OperationOverloading.cpp`
+-   `12_MemberFunctionOP'-'Overloading.cpp`
+-   `13_GlobalFunctionOP'-'Overloading.cpp`
+-   `14_PrintINT.cpp`
+-   `15_FuncOverloading.cpp`
+-   `16_ArrayIndexOperOverloading.cpp`
+-   `17_INTSavingArray.cpp`
 
 <br/>
 
 <br/>
 
 ### C++ Socket Test
+
+This project is dedicated to demonstrating practical applications of C++ socket programming for network communications. It includes examples of setting up a basic client-server architecture, where the server listens for connections on a specified port, and the client connects to the server to exchange messages.
 
 <br/>
 
@@ -95,3 +95,5 @@ This example serves as a basic introduction to the principles of automata theory
 
 1. Concatenating strings
 2. Accessing characters in a string
+3. Comparing strings
+4. Searching within strings
