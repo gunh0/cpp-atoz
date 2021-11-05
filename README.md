@@ -48,6 +48,9 @@ This example serves as a basic introduction to the principles of automata theory
 
 This project is dedicated to demonstrating practical applications of C++ socket programming for network communications. It includes examples of setting up a basic client-server architecture, where the server listens for connections on a specified port, and the client connects to the server to exchange messages.
 
+- **Server**
+- **Client**
+
 <br/>
 
 <br/>
