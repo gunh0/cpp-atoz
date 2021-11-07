@@ -1,5 +1,5 @@
 // Searching within Substrings
-/* Sample
+/* Sample IO:
 Enter the string to be searched and press Enter:
 Smith, where Jones had had "had had", had had "had". "Had had" had had the examiners' approval.
 Enter the string to be found and press Enter:

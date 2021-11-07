@@ -48,8 +48,8 @@ This example serves as a basic introduction to the principles of automata theory
 
 This project is dedicated to demonstrating practical applications of C++ socket programming for network communications. It includes examples of setting up a basic client-server architecture, where the server listens for connections on a specified port, and the client connects to the server to exchange messages.
 
-- **Server**
-- **Client**
+-   **Server**
+-   **Client**
 
 <br/>
 
@@ -57,46 +57,16 @@ This project is dedicated to demonstrating practical applications of C++ socket 
 
 ### Beginning C++17 From Novice to Professional
 
-**1. Basic Ideas**
+-   **1. Basic Ideas**
 
-1. A complete Cpp program
-2. Using escape sequences
+-   **2. Introducting Functional Type of Data**
 
-**2. Introducting Functional Type of Data**
+-   **3. Working with Fundamental Data Types**
 
-1. Writing values of various to cout
-2. Converting distances
-3. Sizing a pond for happy fish
-4. Using explicit type conversoins
-5. Finding maximum and minimum values for data types
+-   **4. Making Decisions**
 
-**3. Working with Fundamental Data Types**
+-   **5. Arrays and Loops**
 
-1. Using the bitwise operators
-2. Operations with enumerations
-3. Demonstrating scope, lifetime, and global variables
+-   **6. Pointers and References**
 
-**4. Making Decisions**
-
-1. Comparing data values
-
-**5. Arrays and Loops**
-
-1. Using a for loop with an array
-
-**6. Pointers and References**
-
-1. The size of pointers
-2. Dereferencing pointers
-3. Initializing pointers with strings
-4. Using an array of pointers
-5. Calculating primes using pointer notation
-6. Calculating primes using dynamic memory allocation
-7. Using smart pointers
-
-**7. Working with Classes**
-
-1. Concatenating strings
-2. Accessing characters in a string
-3. Comparing strings
-4. Searching within strings
+-   **7. Working with Classes**
