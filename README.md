@@ -57,16 +57,10 @@ This project is dedicated to demonstrating practical applications of C++ socket 
 
 ### Beginning C++17 From Novice to Professional
 
--   **1. Basic Ideas**
-
--   **2. Introducting Functional Type of Data**
-
--   **3. Working with Fundamental Data Types**
-
--   **4. Making Decisions**
-
--   **5. Arrays and Loops**
-
--   **6. Pointers and References**
-
--   **7. Working with Classes**
+**1. Basic Ideas**
+**2. Introducting Functional Type of Data**
+**3. Working with Fundamental Data Types**
+**4. Making Decisions**
+**5. Arrays and Loops**
+**6. Pointers and References**
+**7. Working with Classes**

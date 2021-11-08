@@ -3,6 +3,7 @@
 ### VScode ###
 .vscode/
 output/
+*.dSYM
 
 ### CLion ###
 .idea/
