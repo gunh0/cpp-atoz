@@ -64,3 +64,4 @@ This project is dedicated to demonstrating practical applications of C++ socket 
 **5. Arrays and Loops**
 **6. Pointers and References**
 **7. Working with Classes**
+**8. Defining Functions**
